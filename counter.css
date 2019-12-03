@@ -1,0 +1,255 @@
+ @import url('https://fonts.googleapis.com/css?family=Shrikhand');
+        @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+        * {
+          margin: 0;
+          padding: 0;
+        }
+
+		    html, body {
+          background-color: grey;
+          height: 1000px;
+          width: 100%;
+	      }
+
+        .name {
+          height: 200px;
+          width: 450px;
+          cursor: pointer;
+          position: absolute;
+          background-color: white;
+          margin-top: 100px;
+          margin-left: 600px;
+          border-radius: 20px;
+          transition: 500ms ease;
+          -o-transition: 500ms ease;
+          -mozila-transition: 500ms ease;
+          -webkit-transition: 500ms ease; 
+        }
+
+        .name:hover {
+          box-shadow: 0 0 25px gold;
+          background-color: black;
+        }
+
+        .name h5 {
+          text-align: center;
+          font-size: 50px;
+          font-family: 'Shrikhand', cursive;
+          padding-top: 60px;
+          transition: 700ms ease;
+          -o-transition: 700ms ease;
+          -mozila-transition: 700ms ease;
+          -webkit-transition: 700ms ease;
+        }
+ 
+        .name h5:hover {
+          color: white;
+        }
+
+        .counter {
+          border-radius: 20px;
+          position: absolute;
+          background-color: black;
+          height: 400px;
+          width: 900px;
+          cursor: pointer;
+          margin-top: 450px;
+          margin-left: 380px;
+          transition: 800ms ease;
+          -o-transition: 800ms ease;
+          -mozila-transition: 800ms ease;
+          -mozila-transition: 800ms ease;
+        }
+
+        .counter:hover {
+          box-shadow: 0 0 60px orange;
+        }
+
+        .counter .chet {
+          width: 300px;
+          height: 300px;
+          border-radius: 30px;
+          margin-left: 280px;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          background-color: white;
+          transition: 800ms ease;
+          -o-transition: 800ms ease;
+          -mozila-transition: 800ms ease;
+          -webkit-transition: 800ms ease;
+        }
+
+        .counter .chet:active {
+          transform: scale(.4);
+        }
+
+        .counter .chet #c {
+          font-size: 200px;
+          font-family: 'Fjalla One', cursive;
+          padding-top: 30px;
+          position: absolute;
+          padding-left: 100px;
+          transition: 700ms ease;
+          -o-transition: 700ms ease;
+          -mozila-transition: 700ms ease;
+          -webkit-transition: 700ms ease;
+        }
+
+        .counter .chet #c:hover {
+          color: gold;
+        }
+        
+        .button {
+          height: 50px;
+          width: 600px;
+          position: absolute;
+          margin-top: 870px;
+          margin-left: 500px;
+        }
+
+        .button .start1 {
+          font-size: 25px;
+          cursor: pointer;
+          width: 100px;
+          margin-top: 5px;
+          margin-left: 100px;
+          border-radius: 10px;
+          background-color: white;
+          transition: 700ms ease;
+          -o-transition: 700ms ease;
+          -mozila-transition: 700ms ease;
+          -webkit-transition: 700ms ease;
+        }
+
+        .button .start1:hover {
+          box-shadow: 0 0 15px green;
+          background-color: black;
+        }
+
+        .button .start1 .start2 {
+          margin-left: 15px;
+          margin-top: 5px;
+          font-family: 'Shrikhand', cursive;
+          transition: 700ms ease;
+          -o-transition: 700ms ease;
+          -mozila-transition: 700ms ease;
+          -webkit-transition: 700ms ease;
+        }
+
+        .button .start1 .start2:hover {
+          color: white;
+        }
+
+        .button .stop1 {
+          width: 100px;
+          cursor: pointer;
+          height: 37px;
+          border-radius: 10px;
+          background-color: white;
+          position: absolute;
+          margin-left: 430px;
+          bottom: 7px;
+          transition: 700ms ease;
+          -o-transition: 700ms ease;
+          -mozila-transition: 700ms ease;
+          -webkit-transition: 700ms ease;
+        }
+
+        .button .stop1:hover {
+          background-color: black;
+          box-shadow: 0 0 15px red;
+        }
+
+        .button .stop1 .stop2 {
+          font-size: 25px;
+          margin-top: 10px;
+          margin-left: 10px;
+          font-family: 'Shrikhand', cursive;
+          transition: 700ms ease;
+          -o-transition: 700ms ease;
+          -mozila-transition: 700ms ease;
+          -webkitr-transition: 700ms ease;
+        }
+
+        .button .stop1 .stop2:hover {
+          color: white;
+        }
+
+        .JS {
+          height: 200px;
+          width: 200px;
+          position: absolute;
+          border-radius: 20px;
+          background-color: black;
+          margin-left: 1100px;
+          margin-top: 102px;
+          cursor: pointer;
+          transition: 2s ease;
+          -o-transition: 2s ease;
+          -mozila-transition: 2s ease;
+          -webkit-transition: 2s ease;
+          display: none;
+        }
+
+        .JS:hover {
+          box-shadow: 0 0 35px yellow;
+          transform: rotate(360deg);
+          border-radius: 100px;
+        }
+
+        .JS p {
+          color: yellow;
+          font-size: 90px;
+          font-family: 'Shrikhand', cursive;
+          text-align: center;
+          text-transform: uppercase;
+          margin-top: 35px;
+        }
+
+        .JS.text {
+          display: block;
+        }
+
+        .JS.block1 {
+           transform: translateY(50px);
+        }
+
+        .JS.block2 {
+          transform: translateY(-80px);
+        }
+
+        .button .C {
+          width: 100px;
+          height: 37px;
+          background-color: white;
+          margin-left: 270px;
+          border-radius: 10px;
+          cursor: pointer;
+          margin-top: -36px;
+          position: absolute;
+          transition: 700ms ease;
+          -o-transition: 700ms ease;
+          -mozila-transition: 700ms ease;
+          -webkit-transition: 700ms ease;
+        }
+
+        .button .C:hover {
+          background-color: black;
+          box-shadow: 0 0 20px yellow;
+        }
+
+        .button .C .clear {
+          font-size: 25px;
+          font-family: 'Shrikhand', cursive;
+          margin-left: 20px;
+          margin-top: 1px;
+          transition: 700ms ease;
+          -o-transition: 700ms ease;
+          -mozila-transition: 700ms ease;
+          -webkit-transition: 700ms ease;
+        }
+
+        .button .C .clear:hover {
+          color: white;
+        }
